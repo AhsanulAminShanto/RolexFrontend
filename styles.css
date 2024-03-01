@@ -99,6 +99,16 @@ p {
 .text_color {
     color: #000000;
 }
+.link_button {
+    text-decoration: none;
+    background: linear-gradient(rgb(0, 0, 0), rgba(221, 224, 15, 0.699));
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+
 /* Contact Us */
 .contact-form-tittle{
     text-align: center;
