@@ -1,49 +1,101 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+/* Home Page*/
+body{
+font-family: 'Gabarito', sans-serif;
 }
-
-header, nav, section, footer {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
+header img{
+    height: 50px;
+    width: 60px;
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.logo h1 {
+    text-align: left;
+}
+.title{
+    text-align: center;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar a {
+    float:left;
+    display: block;
+    color: white;
     text-align: right;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
+    padding: 14px 20px;
     text-decoration: none;
-    color: #333;
 }
-
-nav a:hover {
-    color: #e6b30dfa; /* Hover effect color */
+.navbar a:hover {
+    background-color: #dfa72f;
+    color: black;
 }
-
-.flex-container {
+ #footer_text {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+#footer_text h1{
+    font-size: x-large;
+    font-family: 'Lobster', cursive;
+}
+.product-divs {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    margin: 20px;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-}
-
-footer {
+.product-div {
     text-align: center;
-    margin-top: 50px;
+}
+.product-div img {
+    width: 500px;
+    height: 600px;
+    border: 5px solid #dabc13;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.images img {
+    width: 30%;
+    border: 5px solid #dabc18;
+}
+h1 {
+    font-size: 51px;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+p {
+    font-size: 20px;
+}
+#section_1 {
+    display: flex;
+    background-color: #bbb34756;
+}
+.width_1 {
+    width: 50%;
+    padding-left: 5%;
+}
+.width_1 img {
+    width: 50%;
+    padding-left: 6%;
+    margin-top: 5%;
+}
+.border_claass {
+    border-left: solid 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    border-radius: 4px;
+    width: 50%;
+}
+.golden_color {
+    color: #d4ab25;
+}
+.text_color {
+    color: #000000;
 }
